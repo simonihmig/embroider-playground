@@ -1,0 +1,9 @@
+<BsButton @type="primary" @onClick={{this.load}}>I am a Bootstrap button</BsButton>
+
+<p>Press the button to lazy load the content.</p>
+
+{{#if this.content}}
+  <blockquote>
+    {{this.content}}
+  </blockquote>
+{{/if}}
